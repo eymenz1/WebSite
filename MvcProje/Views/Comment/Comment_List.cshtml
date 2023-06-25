@@ -1,0 +1,23 @@
+﻿@model IEnumerable<entitylayer.Concrete.Comment>
+<div class="pt-5">
+    <h3 class="mb-5">Comments</h3>
+    <ul class="comment-list">
+        @foreach (var item in Model.Where(x => x.CommentStatus == true))
+        {
+        <li class="comment">
+            <div class="vcard">
+                <img src="~/miniblog/images/1.png" alt="Image placeholder">
+            </div>
+            <div class="comment-body">
+                <h3>@item.Username</h3>
+                <div class="meta">@(((DateTime)item.CommentDate).ToString("dd-MMM-yyyy"))</div>
+                <p>@item.CommentText</p>
+                
+            </div>
+        </li>
+        }
+    </ul>
+    
+
+    @Html.Action("LeaveComment","Comment")
+</div>

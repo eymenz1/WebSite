@@ -1,0 +1,30 @@
+﻿@model entitylayer.Concrete.Blog
+@{
+    ViewBag.Title = "AddNewBLog";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    @Html.Label("Blog Title")
+    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+    <br />
+    @Html.Label("Category")
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.values, new { @class = "form-control" })
+    <br />
+    @Html.Label("Image")
+    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+    <br />
+    @Html.Label("Date Time")
+    @Html.TextBoxFor(x => x.BlogDate, new { @class = "form-control" })
+    <br />
+    @Html.Label("Author")
+    @Html.DropDownListFor(x => x.AuthorID, (List<SelectListItem>)ViewBag.values2, new { @class = "form-control" })
+    <br />
+    @Html.Label("Content")
+    @Html.TextAreaFor(x => x.BlogContent, 10, 40, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+
+</form>
+
+

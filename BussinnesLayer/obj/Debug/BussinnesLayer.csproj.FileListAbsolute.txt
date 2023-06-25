@@ -1,0 +1,15 @@
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\BussinnesLayer.dll
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\BussinnesLayer.pdb
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\DataAccesLayer.dll
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\entitylayer.dll
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\EntityFramework.dll
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\DataAccesLayer.pdb
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\DataAccesLayer.dll.config
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\entitylayer.pdb
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\entitylayer.dll.config
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\bin\Debug\EntityFramework.xml
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\obj\Debug\BussinnesLayer.csproj.AssemblyReference.cache
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\obj\Debug\BussinnesLayer.csproj.CoreCompileInputs.cache
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\obj\Debug\BussinnesLayer.csproj.CopyComplete
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\obj\Debug\BussinnesLayer.dll
+C:\Users\eymen\source\repos\MvcProje\BussinnesLayer\obj\Debug\BussinnesLayer.pdb

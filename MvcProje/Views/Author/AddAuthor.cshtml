@@ -1,0 +1,35 @@
+﻿@model entitylayer.Concrete.Author
+@{
+    ViewBag.Title = "AddAuthor";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    @Html.Label("Author Name")
+    @Html.TextBoxFor(x => x.AuthorName, new { @class = "form-control" })
+    <br />
+    @Html.Label("Image")
+    @Html.TextBoxFor(x => x.AuthorImage, new { @class = "form-control" })
+    <br />
+    @Html.Label("Author Short About")
+    @Html.TextBoxFor(x => x.AboutShort, new { @class = "form-control" })
+    <br />
+    @Html.Label("Author Title")
+    @Html.TextBoxFor(x => x.AuthorTitle, new { @class = "form-control" })
+    <br />
+
+    @Html.Label("Author's Mail")
+    @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+    <br />
+    @Html.Label("Author's Password")
+    @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+    <br />
+    @Html.Label("Phone Number")
+    @Html.TextBoxFor(x => x.PhoneNumber, new { @class = "form-control" })
+    <br />
+    @Html.Label("Author About")
+    @Html.TextAreaFor(x => x.AuthorAbout, 3, 20, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Save</button>
+    </form>
+
